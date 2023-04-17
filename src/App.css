@@ -1,0 +1,32 @@
+.quiz-container {
+  @apply flex justify-center  h-[100vh] w-[100vw] 
+}
+
+.heading {
+  @apply text-[3rem] font-bold
+}
+
+.questio {
+  @apply text-[1rem] font-medium
+}
+
+.highlight {
+  @apply text-[white] bg-[red]
+}
+
+li{
+  @apply cursor-pointer
+}
+
+.null{
+  @apply bg-[green]
+}
+
+ .selected-answer {
+  background: #ffd6ff;
+  border: 1px solid #800080;
+}
+
+.results{
+  @apply flex flex-col
+}
